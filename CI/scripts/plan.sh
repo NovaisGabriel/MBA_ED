@@ -5,7 +5,7 @@ set -e
 
 ./CI/scripts/pre_terraform.sh
 
-cd infrastructure/aws/
+cd infra/
 terraform init
 terraform workspace select $1 || terraform workspace new $1
 terraform plan
