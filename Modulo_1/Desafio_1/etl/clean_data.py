@@ -13,8 +13,6 @@ rais = (
     encoding="latin1")
 )
 
-rais.printSchema()
-
 rais = (
     rais
     .withColumnRenamed('Bairros SP', 'bairros_sp')
@@ -109,7 +107,7 @@ rais = (
     .write.mode('overwrite')
     .partitionBy('ano', 'uf')
     .format('parquet')
-    .save('s3://datalake-gabriellimanovais-715036709715/staging/rais/')
+    .save('s3://igti-gabriel-rais-prod-processing-zone-715036709715/rais/')
 )
 
 spark.stop()
