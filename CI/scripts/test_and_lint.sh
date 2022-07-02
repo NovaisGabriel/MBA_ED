@@ -4,7 +4,7 @@ set -e
 
 ### Check terraform format
 
-cd infrastructure/aws/
+cd infra/
 terraform fmt -check
 cd ../../
 
