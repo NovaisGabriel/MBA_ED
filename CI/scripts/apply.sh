@@ -9,7 +9,7 @@ export AWS_CSM_ENABLED=true
 export AWS_CSM_PORT=31000
 export AWS_CSM_HOST=127.0.0.1
 
-cd infra/
+cd infra/aws/
 
 (iamlive --output-file './policy.json' > /dev/null &)
 
