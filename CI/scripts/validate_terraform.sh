@@ -3,7 +3,7 @@ set -e
 
 ### Validate terraform
 
-cd infra/
+cd infra/aws/
 terraform init -backend=false
 terraform validate
 cd ../../
