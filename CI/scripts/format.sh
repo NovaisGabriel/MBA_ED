@@ -5,7 +5,7 @@ set -e
 
 ./CI/scripts/pre_terraform.sh
 
-cd infra/
+cd infra/aws/
 terraform fmt
 cd ../../
 
