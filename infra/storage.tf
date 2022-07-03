@@ -8,14 +8,14 @@ resource "aws_s3_bucket" "buckets" {
 
 
 
-# resource "null_resource" "fn_example_script" {
-#   triggers = {
-#     always_run = timestamp()
-#   }
+resource "null_resource" "fn_example_script" {
+  triggers = {
+    always_run = timestamp()
+  }
 
-#   provisioner "local-exec" {
-#     command = "zip -rj ../functions/fn_extract_rais.rar ../functions/fn_extract_rais"
-#     # command = "zip -rj ../functions/fn_extract_rais.zip . │ -i ../functions/fn_extract_rais"
-#   }
-# }
+  provisioner "local-exec" {
+    command = "zip -rj ../functions/fn_extract_rais.zip ../functions/fn_extract_rais"
+    # command = "zip -rj ../functions/fn_extract_rais.zip . │ -i ../functions/fn_extract_rais"
+  }
+}
 
