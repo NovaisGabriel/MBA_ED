@@ -20,7 +20,7 @@ tf-fmt:
 
 .PHONY: tf-show
 tf-show:
-	docker-compose -f ./CI/docker-compose.yml run --rm rony-ci -c "cd infrastructure; terraform show"
+	docker-compose -f ./CI/docker-compose.yml run --rm rony-ci -c "cd infra; terraform show"
 
 .PHONY: build-dev
 build-dev:
