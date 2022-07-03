@@ -14,6 +14,8 @@ resource "null_resource" "fn_example_script" {
   }
 
   provisioner "local-exec" {
-    command = "zip -rj ../functions/fn_extract_rais.zip ../functions/fn_extract_rais"
+    # command = "zip -rj ../functions/fn_extract_rais.zip ../functions/fn_extract_rais"
+    command = "zip -rj ../functions/fn_extract_rais.zip . │ -i ../functions/fn_extract_rais"
   }
 }
+
