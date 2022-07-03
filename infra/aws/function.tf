@@ -9,10 +9,6 @@ resource "aws_lambda_function" "decompresss3" {
   runtime     = "python3.8"
   timeout     = 900
   memory_size = 10000
-  environment {
-     variables = {
-     }
-  }
 
   tags = local.common_tags
 
