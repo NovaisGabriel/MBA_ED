@@ -5,7 +5,7 @@ resource "aws_lambda_function" "decompresss" {
   handler       = "handleroutside.handlerinside"
   runtime       = "python3.8"
   timeout       = 899
-  memory_size   = 9999
+  memory_size   = 128
   tags          = local.common_tags
 
 }
