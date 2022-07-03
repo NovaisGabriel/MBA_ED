@@ -4,7 +4,7 @@ from datetime import datetime
 sageclient = boto3.client('sagemaker', region_name='us-east-2')
 sagemaker_role='arn:aws:iam::715036709715:role/service-role/AmazonSageMaker-ExecutionRole-20210518T105032'
 
-def handler(event, context):
+def handlerinside(event, context):
     
     process_job_arn = sageclient.create_processing_job(
         ProcessingJobName= f"rais2020-extraction-{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}",
