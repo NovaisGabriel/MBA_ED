@@ -25,6 +25,6 @@ RUN mkdir -p /opt/ml/processing/output/ && \
 
 ENV PATH="/opt/ml:${PATH}"
 
-COPY getfiles.py /opt/ml/processing/code/getfiles.py
+COPY run.py /opt/ml/processing/code/run.py
 
-ENTRYPOINT ["python", "/opt/ml/processing/code/getfiles.py"]
+ENTRYPOINT ["python", "/opt/ml/processing/code/run.py"]
