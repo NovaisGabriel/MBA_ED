@@ -1,8 +1,0 @@
-Bom dia, eu tive esse erro aqui no momento em que fui converter o dataframe em parquet no windows: "Py4JJavaError: An error occurred while calling [...] Writing job aborted". Além do winutils.exe conforme o professor indicou nas aulas (para versão 3.3.0 peguei do github https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin), para consertar esse erro, eu tive que adicionar o arquivo hadoop.dll nos binários do spark
-
-
-Certamente todos os V's são de suma importância, mas escolhendo apenas dois deles, citaria como mais relevantes na minha experiência na Ciência de Dados, o Valor e a Vulnerabilidade.
-
-O primeiro é que define muito sobre quais dados teremos e realizaremos manutenção, sendo que isso implica diretamente em quais modelos iremos produzir para resolver as mais diversas situações que aparecem no dia a dia da empresa. Os dados limitam muito quais soluções são possíveis, tanto em termos de informação necessária quanto a forma de colocar em produção. E boa parte do que define a obtenção e manutenção dos dados vem das decisões de negócio que estabelecem o valor dos dados.
-
-O segundo "V" representa de forma indireta a preocupação que as empresas possuem em torno da LGPD, que quando não atendida geram problemas legais severos, além de prejudicar a confiabilidade e credibilidade da empresa frente aos seus clientes. Recentemente diversas empresas sofreram ataques e invasões de seus dados, em especial alguns e-commerces de varejo. 
