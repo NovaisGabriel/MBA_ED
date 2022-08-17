@@ -660,10 +660,10 @@ webserver:
   defaultUser:
     enabled: true
     role: Admin
-    username: neylsoncrepalde
-    email: neylson.crepalde@a3data.com.br
-    firstName: Neylson
-    lastName: Crepalde
+    username: gabriel
+    email: gabrieel.novasi@gmail.com
+    firstName: Gabriel
+    lastName: Novais
     password: admin
 
   # Launch additional containers into webserver.
@@ -1176,7 +1176,7 @@ dags:
     # ssh examples ssh://git@github.com/apache/airflow.git
     # git@github.com:apache/airflow.git
     # https example: https://github.com/apache/airflow.git
-    repo: https://github.com/neylsoncrepalde/edc_mod4_exercise_igti.git
+    repo: https://github.com/novaisgabriel/MBA_ED.git
     branch: dev
     rev: HEAD
     depth: 1

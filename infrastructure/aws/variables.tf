@@ -3,11 +3,11 @@ variable "region_id" {
 }
 
 variable "prefix" {
-  default = "igti-ney-mod4"
+  default = "igti-gabriel-desafio-final"
 }
 
 variable "account" {
-  default = 127012818163
+  default = 715036709715
 }
 
 # Prefix configuration and project common tags
@@ -22,7 +22,7 @@ locals {
     BusinessUnit = "Data"
     Billing      = "Infrastructure"
     Environment  = terraform.workspace
-    UserEmail    = "neylson.crepalde@a3data.com.br"
+    UserEmail    = "gabrieel.novais@gmail.com"
   }
 }
 
