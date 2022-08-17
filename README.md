@@ -1,2 +1,2 @@
-# MBA_ED
-Repositório destinado ao curso de MBA do IGTI/XPE em engenharia de dados.
+# igti-edc-mod4
+Repositório para os exercícios do Módulo 4 do Bootcamp de Engenharia de Dados do IGTI
